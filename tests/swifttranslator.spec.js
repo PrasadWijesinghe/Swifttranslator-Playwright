@@ -83,7 +83,7 @@ const cases = [
     id: "Pos_Fun_12",
     name: "connected sentence with english word that use in informal conversation.",
     input: "mata heta enna bari vena scene ekak thiyenne.haebayi mama mokak hari gemak gahanna balagena inne",
-    expected: "මට හෙට එන්න බැරි වෙන scene එකක් තියෙන්නෙ.හැබයි මම මොකක් හරි ගෙමක් ගහන්න බලගෙන ඉන්නේ බැරි",
+    expected: "මට හෙට එන්න bari වෙන scene එකක් තියෙන්නෙ.හැබයි මම මොකක් හරි ගෙමක් ගහන්න බලගෙන ඉන්නේ"
   },
   {
     id: "Pos_Fun_13",

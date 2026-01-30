@@ -82,8 +82,8 @@ const cases = [
   {
     id: "Pos_Fun_12",
     name: "connected sentence with english word that use in informal conversation.",
-    input: "mata heta enna bari vena scene  ekak thiyenne.haebayi mama mokak hari gemak gahanna balagena inne",
-    expected: "මට හෙට එන්න බැරි වෙන scene  එකක් තියෙන්නෙ.හැබයි මම මොකක් හරි ගෙමක් ගහන්න බලගෙන ඉන්නේ බැරි",
+    input: "mata heta enna bari vena scene ekak thiyenne.haebayi mama mokak hari gemak gahanna balagena inne",
+    expected: "මට හෙට එන්න බැරි වෙන scene එකක් තියෙන්නෙ.හැබයි මම මොකක් හරි ගෙමක් ගහන්න බලගෙන ඉන්නේ බැරි",
   },
   {
     id: "Pos_Fun_13",
@@ -125,7 +125,7 @@ const cases = [
     id: "Pos_Fun_15",
     name: "Convert long pharagraph",
     input: "shrii lankaavee praDhaana jaathiya vana sinhala janayaagee mav basa sinhala veyi. adha vana vita miliyana 20 kata aDhika sinhala saha miliyana 3kata aDhika sinhala novana janagahanayak sinhala BhaaShaava Bhaavitha karathi. sinhala indhu-yuroopiiya BhaaShaavala upa gaNayak vana indhu-aarYA BhaaShaa gaNayata ayithi vana athara maala dhivayina Bhaavitha karana dhivehi BhaaShaava sinhala basata bohoo dhurata samaana BhaaShaavaki. sinhala shrii lankaavee nila BhaaShaavayi.",
-    expected: "ශ්‍රී ලන්කාවේ ප්‍රධාන ජාතිය වන sinhala ජනයාගේ මව් බස sinhala වෙයි. අද වන විට මිලියන 20 කට අධික sinhala සහ මිලියන 3කට අධික sinhala නොවන ජනගහනයක් sinhala භාෂාව භාවිත කරති. sinhala ඉන්දු-යුරෝපීය භාෂාවල උප ගණයක් වන ඉන්දු ආර්ය භාෂා ගණයට අයිති වන අතර මාල දිවයින භාවිත කරන දිවෙහි භාෂාව sinhala බසට බොහෝ දුරට සමාන භාෂාවකි. sinhala ශ්‍රී ලන්කාවේ නිල භාෂාවයි.",
+    expected: "ශ්‍රී ලන්කාවේ ප්‍රධාන ජාතිය වන sinhala ජනයාගේ මව් බස sinhala වෙයි. අද වන විට මිලියන 20 කට අධික sinhala සහ මිලියන 3කට අධික sinhala නොවන ජනගහනයක් sinhala භාෂාව භාවිත කරති. sinhala ඉන්දු-යුරෝපීය භාෂාවල උප ගණයක් වන ඉන්දු-ආරYඅ භාෂා ගණයට අයිති වන අතර මාල දිවයින භාවිත කරන දිවෙහි භාෂාව sinhala බසට බොහෝ දුරට සමාන භාෂාවකි. sinhala ශ්‍රී ලන්කාවේ නිල භාෂාවයි.",
   },
   {
     id: "Pos_Fun_16",
@@ -136,7 +136,7 @@ const cases = [
   {
     id: "Pos_Fun_17",
     name: "Convert an imperative command",
-    input: "vashama enna",
+    input: "vahaama enna",
     expected: "වහාම එන්න",
   },
   {

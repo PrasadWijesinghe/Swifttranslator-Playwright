@@ -158,10 +158,46 @@ const cases = [
     expected: "මට 7.30 AM වෙනකන් ඉන්න පුලුවන්.rs 1000ක් අරන් එන්න",
   },
   {
-    id: "Pos_Fun_15",
-    name: "",
-    input: "",
-    expected: "",
+    id: "Pos_Fun_21",
+    name: "Convert sentence with numeric date format and English words",
+    input: "api ehenam dhesaembar 25 ta kalin api yamu.Japan valata godak hima vaetenava e kaale.christmas gift ehemath gamu.",
+    expected: "අපි එහෙනම් දෙසැම්බර් 25 ට කලින් අපි යමු.Japan වලට ගොඩක් හිම වැටෙනව එ කාලෙ.christmas gift එහෙමත් ගමු.",
+  },
+  {
+    id: "Neg_Fun_08",
+    name: "Sentence with mixed casing causes",
+    input: "MaMa ADhA Heta geDARA yANAvA",
+    expected: "මම අද හෙටම ගෙදර යනව",
+  },
+  {
+    id: "Pos_Fun_22",
+    name: "Emoiji Mixed Singlish Sentence",
+    input: "api heta ayeth enava 🙂.aavama sellam karamu",
+    expected: "අපි හෙට අයෙත් එනව 🙂.ආවම සෙල්ලම් කරමු",
+  },
+  {
+    id: "Neg_Fun_09",
+    name: "Sentence with hypernated words",
+    input: "mama adha office-work patan gannava",
+    expected: "මම අද office work පටන් ගන්නව",
+  },
+  {
+    id: "Pos_Fun_23",
+    name: "Convert a conditional sentence",
+    input: "oyaa enavaanam mama eeka aragannavaa.",
+    expected: "ඔයා එනවානම් මම ඒක අරගන්නවා.",
+  },
+  {
+    id: "Pos_Fun_24",
+    name: "Convert simple  present sentence with adverbs and adjectives ",
+    input: "Mee paara mama rathu paata loku Car ekak ikmanatama gannavaa.",
+    expected: "මේ පාර මම රතු පාට ලොකු Car එකක් ඉක්මනටම ගන්නවා.",
+  },
+  {
+    id: "Neg_Fun_10",
+    name: "Checking Cmplex sinhala Words",
+    input: "Aparaadha parikshaNa thumiya pita viya",
+    expected: "අපරාධ පරික්ශණ තුමිය පිට විය",
   },
 ];
 

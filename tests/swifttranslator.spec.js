@@ -100,14 +100,20 @@ const cases = [
   {
     id: "Neg_Fun_04",
     name: "Extra spaces",
-    input: "mata   raeeta    kanna   bath    oonee",
+    input: "mata    raeeta    kanna   bath    oonee",
     expected: "මට රෑට කන්න බත් ඕනේ",
   },
   {
     id: "Neg_Fun_05",
     name: "Multi line input in a dialog",
-    input: "mama gedhara yanavaa oyaa enavadha?",
+    input: "mama gedhara yanavaa \n oyaa enavadha?",
     expected: "මම ගෙදර යනවා ඔයා එනවද?",
+  },
+  {
+    id: "Neg_Fun_06",
+    name: "Execessive word reptition reduces readability",
+    input: "hari hari hari hari hari eeka hariyatavaeda karanavaa",
+    expected: "හරි  ඒක හරියට වැඩ කරනවා",
   },
   {
     id: "Neg_Fun_07",
